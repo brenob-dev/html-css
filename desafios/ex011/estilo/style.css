@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+:root{
+    --fonte-destaque: robo
+}
+
+body { /* corpo todo */
+    background-color:#26d3778e;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+header{ /* CABEÇALHO */
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#094b28c5, #118F4C);
+    color:#ffffff;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    
+    font-family: "Bitcount Prop Single", system-ui;
+    font-size: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.685);
+} 
+header > p{
+    padding-bottom: 10px;
+}
+nav{ /* MENU */
+    width: 100%;
+    background-image: linear-gradient(#094b28c5, #118F4C);
+    text-align: left;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color:#073f21;
+}
+main{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+h1{
+    font-family: "Bitcount Prop Single", system-ui;
+    padding: 10px;
+}
+h2{
+    font-family: "Bitcount Prop Single", system-ui;
+    background-image: linear-gradient(#094b28c5, #1b9b57);
+    color: #ffffff;
+    margin: 10px;
+}  
+p{
+    padding-left: 10px;
+    text-indent: 20px;
+}
+h3{
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(#094b28c5, #1b9b57);
+}
+aside{
+border-radius: 10px;
+color: black;
+background-image: linear-gradient(#54c589, #44e790);
+}
+footer{
+    width: 100%;
+    background-image: linear-gradient(#094b28c5, #1b9b57);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+
